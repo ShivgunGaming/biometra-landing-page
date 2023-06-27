@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     creator: "@AlexRG",
   },
   metadataBase: new URL("https://mp-aleksrg.vercel.app/"),
-  themeColor: "#ffffff",
 };
 export default function RootLayout({
   children,
