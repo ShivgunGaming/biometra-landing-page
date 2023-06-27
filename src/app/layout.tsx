@@ -1,14 +1,26 @@
+import { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "MP Locksmith Pro - Денонощен ключар и автоключар в София",
-  description:
-    "Предлагаме денонощни ключарски услуги в София. Свържете се с нас за бързо и надеждно отключване, смяна на ключове и други ключарски услуги.",
+const title = "MP Locksmith Pro - Денонощен ключар и автоключар в София";
+const description =
+  "Предлагаме денонощни ключарски услуги в София. Свържете се с нас за бързо и надеждно отключване, смяна на ключове и други ключарски услуги.";
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+  },
+  twitter: {
+    title,
+    description,
+    card: "summary_large_image",
+    creator: "@AlexRG",
+  },
+  metadataBase: new URL("https://mp-aleksrg.vercel.app/"),
+  themeColor: "#ffffff",
 };
-
 export default function RootLayout({
   children,
 }: {
