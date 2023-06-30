@@ -14,8 +14,9 @@ function Footer() {
         </div>
         <div className="text-end">
           <span className="text-sm text-zinc-400/90">
+            2023 Copyright
           </span>{" "}
-          <p className={`text-sm text-zinc-400/90`}>© 2023, Biometra</p>
+          <p className={`text-sm text-zinc-400/90`}>© Biometra</p>
         </div>
       </div>
     </div>
