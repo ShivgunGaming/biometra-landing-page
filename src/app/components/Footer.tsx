@@ -14,7 +14,6 @@ function Footer() {
         </div>
         <div className="text-end">
           <span className="text-sm text-zinc-400/90">
-            Всички права запазени
           </span>{" "}
           <p className={`text-sm text-zinc-400/90`}>© 2023, Biometra</p>
         </div>
