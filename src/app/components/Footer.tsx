@@ -7,16 +7,16 @@ function Footer() {
         <div>
           <h1 className={`mb-3 text-2xl font-semibold whitespace-nowrap`}>
             <span className="inline-block transition-transform group-hover:translate-x-1  motion-reduce:transform-none font-extrabold tracking-tight text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 via-zinc-100/80 to-white">
-              MP
+              Biometra
             </span>{" "}
           </h1>
-          <p className={`-mt-5 text-sm text-zinc-400/90`}>Lokshmits PRO</p>
+          <p className={`-mt-5 text-sm text-zinc-400/90`}>One Scan, Endless Possibilities</p>
         </div>
         <div className="text-end">
           <span className="text-sm text-zinc-400/90">
             Всички права запазени
           </span>{" "}
-          <p className={`text-sm text-zinc-400/90`}>© 2023, КлючарМП</p>
+          <p className={`text-sm text-zinc-400/90`}>© 2023, Biometra</p>
         </div>
       </div>
     </div>
