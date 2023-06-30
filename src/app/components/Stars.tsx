@@ -15,8 +15,8 @@ function Stars() {
         <StarIcon className="w-5 h-5 text-white -ml-2.5" />
       </div>
       <span className="ml-2">
-        <span className="">4.68</span>
-        <span className=""> stars on Google</span>
+        <span className=""></span>
+        <span className=""> Pending review on Google</span>
       </span>
     </div>
   );
