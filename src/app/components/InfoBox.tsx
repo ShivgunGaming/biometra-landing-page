@@ -13,7 +13,7 @@ function InfoBox() {
         ></div>
         <div className="w-60 relative tracking-tight font-light border rounded-full border-white/10 text-zinc-400/90 flex space-x-2 items-center py-1.5 justify-center bg-zinc-950 text-sm">
           <ArrowRightCircleIcon className="w-5 h-5 text-sky-500" />
-          <span>24/7 София и региона</span>
+          <span>Biometric Authentication</span>
         </div>
       </div>
     </div>
