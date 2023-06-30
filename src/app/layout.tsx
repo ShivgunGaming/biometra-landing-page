@@ -2,9 +2,8 @@ import { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-const title = "MP Locksmith Pro - Денонощен ключар и автоключар в София";
-const description =
-  "Предлагаме денонощни ключарски услуги в София. Свържете се с нас за бързо и надеждно отключване, смяна на ключове и други ключарски услуги.";
+const title = "Biometra - One Scan, Endless Possibilities";
+const description = ""
 export const metadata: Metadata = {
   title,
   description,
