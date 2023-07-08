@@ -45,7 +45,7 @@ function Carousel({ className }: CarouselProps) {
               style={{
                 top: index === activeIndex ? "3rem" : "0",
                 padding: "2rem", // Add desired padding value here
-                fontFamily: "Roboto Condensed Bold", // Add desired font family here
+                fontFamily: "text-4xl py-2 text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 via-zinc-100/80 to-white font-[900] bold", // Add desired font family here
               }}
             >
               {item}
