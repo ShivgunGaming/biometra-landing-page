@@ -2,7 +2,7 @@ import { ArrowRightCircleIcon } from "@heroicons/react/24/solid";
 import React from "react";
 
 function InfoBox() {
-  const link = "https://chrome.google.com/webstore/detail/biometra/geeojnpimoehffcokhkikhbobigpffck";
+  const link = "https://chrome.google.com/webstore/detail/biometra/gknnoaamopfhmbidclipchiccnladiol";
 
   return (
     <div className="h-16 w-80 flex justify-center items-center border-none sm:border-dashed border-l border-r border-stone-800 -mb-16">
